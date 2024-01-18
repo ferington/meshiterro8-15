@@ -10,7 +10,7 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body> 
+  <body>
     <header>
       <% if user_signed_in? %>
         <li>
@@ -31,7 +31,7 @@
         </li>
       <% end %>
     </header>
-    
+
     <%= yield %>
   </body>
 </html>
